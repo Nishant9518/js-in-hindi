@@ -9,4 +9,5 @@ else if (a >0 && a < 18) {
 else {
     console.log("you are an adult")
 } */
-let b = prompt("hey what is your age");
+let a =67;
+console.log(a>18? "you are an adult" : "you are a kid")
