@@ -10,3 +10,15 @@ let fnc = () => {
     console.log("hi nishant")
 }
 fnc()
+// variable me function ko shave krne ko function expression khete hai .
+function dance(a){
+    console.log(`${a} is dancing`);
+
+}
+    dance("nishant")
+    dance("lakshita")
+function sum(a,b){
+    console.log(a+b);
+}
+sum(5,6)
+// jo ye humne upper a or b le rakhe h vo parameters hai aur jab hum function ko call karte hai to hum usme values pass karte hai jise arguments kehte hai.
